@@ -5,9 +5,7 @@ Vetor::Vetor(float mx, float my) {
     y = my;
 }
 
-Vetor::~Vetor() {
-
-}
+Vetor::~Vetor() {}
 
 void Vetor::setX(float mx) {
     x = mx;
