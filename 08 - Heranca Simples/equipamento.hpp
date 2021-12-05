@@ -6,9 +6,11 @@ class Equipamento {
 private:
     char nome[100];
     char fabricante[100];
+protected:
     float preco;
 public:    
     Equipamento();
+    ~Equipamento();
     void setNome(const char *nome);
     void setFabricante(const char *fabricante);
     void setPreco(float preco);

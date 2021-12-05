@@ -8,7 +8,7 @@ private:
     float velocidade;
 public:
     Motor();
-
+    ~Motor();
     float getPotencia() const;
     void setPotencia(float potencia);
     float getVelocidade() const;

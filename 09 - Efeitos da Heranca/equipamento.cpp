@@ -33,3 +33,5 @@ char *Equipamento::getFabricante() {
 float Equipamento::getPreco() {
     return this->preco;
 }
+
+
